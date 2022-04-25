@@ -9,7 +9,7 @@ To run, you can type "python test_task_1_json_parser.py" in venv
     
 2.   To start second example module, you need to specify commandline parametres in following syntax
 (in virtual environment, if you dont have requests module system-wide installed): "python test_task_2_requests.py <an IFNS code> <an OKTMMF code>".
-Example values are 7840 40913000 for ifns and oktmmf parametres, e.g. "python test_task_2_requests.py 7840 40913000"
+Example values are 7840 40913000 for ifns and oktmmf parametres, e.g. "python test_task_2_requests.py 7840 40913000".
 It will output data from "https://service.nalog.ru/addrno.do" to terminal for correct input data and stable internet connection,
 otherwise it will throw an exception
 
